@@ -1,0 +1,2 @@
+# dbconnector
+基于node平台实现js配置化访问mysql数据库
