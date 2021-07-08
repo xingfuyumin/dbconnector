@@ -1,0 +1,4 @@
+# 需要忽略的文件(夹)放在这里
+build/
+node_modules/*
+
