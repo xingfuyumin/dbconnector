@@ -1,8 +1,10 @@
-import ConnectionPool from './connectionPool';
+import ConnectPool from './connectPool';
 
-class MingDBConnector {
-  private connectionPool: ConnectionPool;
+class MingDBC {
+  private connectPool: ConnectPool;
   constructor (configPath: string) {
-    this.connectionPool = new ConnectionPool(configPath);
+    this.connectPool = new ConnectPool(configPath);
   }
 };
+
+export default MingDBC;

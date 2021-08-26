@@ -1,0 +1,18 @@
+{
+  "master": {
+    "host": "111.231.27.167",
+    "port": 3306,
+    "user": "root",
+    "password": "zhouxiaoming_root@2020",
+    "database": "userinfo",
+    "dbType": "mysql"
+  },
+  "slave": {
+    "host": "111.231.27.168",
+    "port": 3306,
+    "user": "xmzhou",
+    "password": "@2020",
+    "database": "userinfo",
+    "dbType": "mysql"
+  }
+}
