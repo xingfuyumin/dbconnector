@@ -1,7 +1,7 @@
 {
-  "name": "dbconnector",
+  "name": "db-connect",
   "version": "1.0.0",
-  "description": "基于node平台实现js配置化访问mysql数据库",
+  "description": "基于node平台实现配置化js访问数据库",
   "main": "index.js",
   "scripts": {
     "test": "tsc && cd ./test && node index.js"
